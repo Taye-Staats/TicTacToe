@@ -36,7 +36,7 @@ public class PlayerSetup extends AppCompatActivity {
         String player2Name = player2.getText().toString();
 
         Intent intent = new Intent(this, GameDisplay.class);
-        intent.putExtra( "PLAYER NAMES", new String[] {player1Name, player2Name});
+        intent.putExtra( "PLAYER_NAMES", new String[] {player1Name, player2Name});
         startActivity(intent);
 
     }
