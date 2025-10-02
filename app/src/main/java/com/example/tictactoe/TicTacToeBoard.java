@@ -151,4 +151,9 @@ public class TicTacToeBoard extends View {
                 paint);
     }
 
+    public void restGame()
+    {
+        game.resetGame();
+    }
+
 }

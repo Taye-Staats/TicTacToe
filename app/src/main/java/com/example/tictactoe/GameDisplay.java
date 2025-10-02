@@ -12,11 +12,15 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class GameDisplay extends AppCompatActivity {
 
+    private TicTacToeBoard ticTacToeBoard;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         EdgeToEdge.enable(this);
         setContentView(R.layout.game_display);
+        ticTacToeBoard = findViewById(R.id.ticTacToeBoard3);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -26,7 +30,8 @@ public class GameDisplay extends AppCompatActivity {
 
     public void playAgainButtonClick(View view)
     {
-        // do fancy stuff
+       ticTacToeBoard.restGame();
+       ticTacToeBoard.invalidate();
     }
 
     public void homeButtonClick(View view)
