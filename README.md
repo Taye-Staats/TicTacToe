@@ -9,9 +9,9 @@ A two-player Tic Tac Toe game built in Android Studio using Java and Supabase. F
 - Real-time JSON parsing and Retrofit API calls
 
 ## Screenshots
-<img width="100" height="200" alt="Screenshot_20251003_144603" src="https://github.com/user-attachments/assets/7b692d5f-2b4e-4eae-9c9e-fe75eedcc92a" />
-<img width="100" height="200" alt="Screenshot_20251003_144725" src="https://github.com/user-attachments/assets/0653fdd2-d931-480e-99a4-9e3f57eaab84" />
-<img width="100" height="200" alt="Screenshot_20251003_144801" src="https://github.com/user-attachments/assets/2e2a21bb-f670-458e-a786-217d41fa07bd" />
+<img width="200" height="400" alt="Screenshot_20251003_144603" src="https://github.com/user-attachments/assets/7b692d5f-2b4e-4eae-9c9e-fe75eedcc92a" />
+<img width="200" height="400" alt="Screenshot_20251003_144725" src="https://github.com/user-attachments/assets/0653fdd2-d931-480e-99a4-9e3f57eaab84" />
+<img width="200" height="400" alt="Screenshot_20251003_144801" src="https://github.com/user-attachments/assets/2e2a21bb-f670-458e-a786-217d41fa07bd" />
 
 ## Technologies Used
 - Java
